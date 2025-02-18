@@ -1,0 +1,134 @@
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:lightskyblue;
+}
+
+
+p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15;
+text-decoration: none;
+color: black;
+
+}
+
+h2{
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 15px;
+font-size: 25px;
+color: rgba(12, 11, 11, 0.952);
+
+}
+
+
+h5{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: rgba(12, 11, 11, 0.952);
+    text-align: center;    
+}
+
+
+
+
+ul{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 5px;
+text-align: center;
+color: black;
+}
+
+nav{
+background-color: lightskyblue;
+padding: 15px;
+border-radius: 10px;
+margin: 20px;;
+}
+
+
+
+
+.texto{
+text-align: center;
+background-color: lightskyblue;
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 3%;
+border-radius: 15px;
+}
+
+
+
+.bi, .sql, .excel, .Ptyhon {
+    text-decoration: none;
+    background-color: lightskyblue;
+    padding: 5px 10px; /* Reduzindo o espaço interno */
+    border-radius: 10px;
+    position: absolute;
+    width: 140px;  /* Largura ajustada para caber o texto */
+    height: 40px;  /* Altura menor */
+    text-align: center;
+    line-height: 40px; /* Centraliza o texto verticalmente */
+    font-size: 14px; /* Tamanho da fonte ajustado */
+    font-weight: bold; /* Deixa o texto mais legível */
+    white-space: nowrap; /* Evita que o texto quebre linha */
+}
+
+/* Posicionamento */
+.bi {
+    color: black;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.sql {
+    color:black;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.excel {
+    color:black;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.Ptyhon {
+    color:black;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.botao{
+margin-left: 43%;
+color: black;
+padding-top: 25px;
+padding-bottom: 25px;
+text-decoration: none;
+}
+
+.voltar{
+margin-left: 90%;
+position: absolute;
+top: 85%;
+right: 10%;
+text-decoration: none;
+color: black;
+background-color: lightskyblue;
+line-height: 40px; /* Centraliza o texto verticalmente */
+font-size: 14px; /* Tamanho da fonte ajustado */
+font-weight: bold; /* Deixa o texto mais legível */
+white-space: nowrap; /* Evita que o texto quebre linha */
+border-radius: 15px;
+}
